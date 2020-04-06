@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="image_resources">
+    <file>image_resources/tick_icon.png</file>
+    <file>image_resources/update_icon.png</file>
+    <file>image_resources/add_circle_icon.png</file>
+    <file>image_resources/add_plus_icon.png</file>
+    <file>image_resources/back_icon.png</file>
+    <file>image_resources/cancel_icon.png</file>
+    <file>image_resources/double_arrow_icon.png</file>
+    <file>image_resources/menu_icon.png</file>
+    <file>image_resources/minus-circle_icon.png</file>
+    <file>image_resources/photoIcon.png</file>
+    <file>image_resources/photoIcon1.png</file>
+    <file>image_resources/poweroff_icon.png</file>
+    <file>image_resources/rescan_icon.png</file>
+    <file>image_resources/save-icon.png</file>
+    <file>image_resources/select_icon.png</file>
+    <file>image_resources/wifiOFF_icon.png</file>
+    <file>image_resources/wifiON_icon.png</file>
+  </qresource>
+</RCC>

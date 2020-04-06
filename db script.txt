@@ -1,0 +1,40 @@
+CREATE TABLE settings(
+  id TEXT,
+  name TEXT,
+  value Varchar
+);
+
+CREATE TABLE 'led_groups' (
+ 'led_group_id' TEXT,
+ 'name' TEXT,
+ 'active' TEXT,
+ 'led_0' TEXT,
+ 'led_1' TEXT,
+ 'led_2' TEXT,
+ 'led_3' TEXT,
+ 'led_4' TEXT,
+ 'led_5' TEXT,
+ 'led_6' TEXT,
+ 'led_7' TEXT,
+ 'led_8' TEXT,
+ 'led_9' TEXT,
+ 'led_10' TEXT,
+ 'led_11' TEXT,
+)
+
+CREATE TABLE sequences(
+  sequence_id TEXT,
+  name TEXT
+);
+
+
+CREATE TABLE sequence_steps ('id' TEXT,'sequence_id' TEXT,'step_id' TEXT,'color' TEXT,'white' TEXT,'led_group_id' TEXT,'exposure_mode' TEXT,'awb_mode' TEXT,'iso' TEXT,'shutter_speed' TEXT,'brightness' TEXT,'saturation' TEXT,'led_brightness' TEXT,'contrast' TEXT)
+
+
+
+
+
+
+
+
+

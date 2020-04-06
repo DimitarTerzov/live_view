@@ -1,0 +1,1405 @@
+2020-01-20 08:00:44,205 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 08:00:44,206 INFO get_data_from_www(71) Getting data from WWW for settings for user_id 2
+2020-01-20 08:00:45,440 ERROR get_data_from_www(77) Exception: the JSON object must be str, not 'bytes'
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 73, in get_data_from_www
+    self.data_dictionary = json.loads(response.read())
+  File "/usr/lib/python3.5/json/__init__.py", line 312, in loads
+    s.__class__.__name__))
+TypeError: the JSON object must be str, not 'bytes'
+2020-01-20 08:00:45,442 ERROR download(110) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 98, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-20 08:00:45,443 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 08:00:45,444 INFO get_data_from_www(71) Getting data from WWW for sequences for user_id 2
+2020-01-20 08:00:46,259 ERROR get_data_from_www(77) Exception: the JSON object must be str, not 'bytes'
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 73, in get_data_from_www
+    self.data_dictionary = json.loads(response.read())
+  File "/usr/lib/python3.5/json/__init__.py", line 312, in loads
+    s.__class__.__name__))
+TypeError: the JSON object must be str, not 'bytes'
+2020-01-20 08:00:46,259 ERROR download(190) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 179, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-20 08:00:46,259 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 08:00:46,259 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 08:00:46,259 INFO get_data_from_www(71) Getting data from WWW for sequence_steps for user_id 2
+2020-01-20 08:00:47,283 ERROR get_data_from_www(77) Exception: the JSON object must be str, not 'bytes'
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 73, in get_data_from_www
+    self.data_dictionary = json.loads(response.read())
+  File "/usr/lib/python3.5/json/__init__.py", line 312, in loads
+    s.__class__.__name__))
+TypeError: the JSON object must be str, not 'bytes'
+2020-01-20 08:00:47,283 ERROR download(257) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 244, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-20 08:00:47,283 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 08:00:47,283 INFO get_data_from_www(71) Getting data from WWW for led_groups for user_id 2
+2020-01-20 08:00:48,307 ERROR get_data_from_www(77) Exception: the JSON object must be str, not 'bytes'
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 73, in get_data_from_www
+    self.data_dictionary = json.loads(response.read())
+  File "/usr/lib/python3.5/json/__init__.py", line 312, in loads
+    s.__class__.__name__))
+TypeError: the JSON object must be str, not 'bytes'
+2020-01-20 08:00:48,308 ERROR download(149) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/ptc_database.py", line 135, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-20 08:11:47,502 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 08:11:47,502 INFO get_data_from_www(71) Getting data from WWW for settings for user_id 2
+2020-01-20 08:11:48,788 INFO get_data_from_www(75) Done!
+2020-01-20 08:11:48,788 INFO download(100) Data length is - 34
+2020-01-20 08:11:51,818 INFO select_all_rows(45) ('54', 'buzzer_gpio', '25')
+2020-01-20 08:11:51,819 INFO select_all_rows(45) ('41', 'color_effects', '0')
+2020-01-20 08:11:51,819 INFO select_all_rows(45) ('42', 'color_effects_u', '0')
+2020-01-20 08:11:51,819 INFO select_all_rows(45) ('43', 'color_effects_v', '0')
+2020-01-20 08:11:51,819 INFO select_all_rows(45) ('37', 'drc_strength', 'off')
+2020-01-20 08:11:51,820 INFO select_all_rows(45) ('56', 'dropbox_access_token', 'sYKfco6L-BAAAAAAAAAADlqvfdzd8CbUOMBxt6hdwbHPpFcRhIU-5b_gw8SW4yMq')
+2020-01-20 08:11:51,820 INFO select_all_rows(45) ('57', 'dropbox_destination_folder', '/SensioPhotos')
+2020-01-20 08:11:51,820 INFO select_all_rows(45) ('58', 'dropbox_link', 'https://www.dropbox.com/home/Apps/Lights%20and%20Camera')
+2020-01-20 08:11:51,820 INFO select_all_rows(45) ('38', 'exposure_compensation', '5')
+2020-01-20 08:11:51,820 INFO select_all_rows(45) ('51', 'image_copyright', 'Copyright james333')
+2020-01-20 08:11:51,821 INFO select_all_rows(45) ('39', 'image_denoise', '0')
+2020-01-20 08:11:51,821 INFO select_all_rows(45) ('44', 'image_effect', 'none')
+2020-01-20 08:11:51,821 INFO select_all_rows(45) ('45', 'image_effects_param_1', '9')
+2020-01-20 08:11:51,821 INFO select_all_rows(45) ('46', 'image_effects_param_2', '8')
+2020-01-20 08:11:51,821 INFO select_all_rows(45) ('47', 'image_effects_param_3', '7')
+2020-01-20 08:11:51,821 INFO select_all_rows(45) ('48', 'image_effects_param_4', '6')
+2020-01-20 08:11:51,822 INFO select_all_rows(45) ('49', 'image_effects_param_5', '4')
+2020-01-20 08:11:51,822 INFO select_all_rows(45) ('59', 'image_effects_param_6', '3')
+2020-01-20 08:11:51,822 INFO select_all_rows(45) ('50', 'image_name', 'my_image')
+2020-01-20 08:11:51,822 INFO select_all_rows(45) ('40', 'meter_mode', 'average')
+2020-01-20 08:11:51,822 INFO select_all_rows(45) ('55', 'neopixel_gpio', 'GPIO18')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('52', 'neopixel_order', 'grbw')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('62', 'number_of_neopixels', '12')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('31', 'resolution_x', '1280')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('32', 'resolution_y', '720')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('66', 'shutdown_gpio', '5')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('60', 'status_light_brightness', '60')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('68', 'status_light_index', '2')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('70', 'steps_per_page', '2')
+2020-01-20 08:11:51,823 INFO select_all_rows(45) ('53', 'switch_gpio', '24')
+2020-01-20 08:11:51,824 INFO select_all_rows(45) ('36', 'zoom_h', '1')
+2020-01-20 08:11:51,824 INFO select_all_rows(45) ('35', 'zoom_w', '1')
+2020-01-20 08:11:51,824 INFO select_all_rows(45) ('33', 'zoom_x', '0')
+2020-01-20 08:11:51,824 INFO select_all_rows(45) ('34', 'zoom_y', '0')
+2020-01-20 08:11:51,824 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 08:11:51,824 INFO get_data_from_www(71) Getting data from WWW for sequences for user_id 2
+2020-01-20 08:11:52,852 INFO get_data_from_www(75) Done!
+2020-01-20 08:11:52,852 INFO download(181) Data length is - 1
+2020-01-20 08:11:53,039 INFO select_all_rows(45) ('135', 'bloop', None)
+2020-01-20 08:11:53,039 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 08:11:53,039 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 08:11:53,040 INFO get_data_from_www(71) Getting data from WWW for sequence_steps for user_id 2
+2020-01-20 08:11:54,010 INFO get_data_from_www(75) Done!
+2020-01-20 08:11:54,011 INFO download(246) Data length is - 8
+2020-01-20 08:11:54,825 INFO select_all_rows(45) ('356', '135', '1', '#ff0000', '0', '46', 'auto', 'auto', '0', '0', '50', '0', '40', '0')
+2020-01-20 08:11:54,825 INFO select_all_rows(45) ('357', '135', '2', '#0000ff', '0', '47', 'backlight', 'auto', '0', '0', '50', '0', '8', '0')
+2020-01-20 08:11:54,826 INFO select_all_rows(45) ('358', '135', '3', '#ff0000', '20', '50', 'auto', 'shade', '0', '0', '50', '0', '20', '0')
+2020-01-20 08:11:54,826 INFO select_all_rows(45) ('359', '135', '4', '#00ff40', '25', '46', 'auto', 'cloudy', '0', '0', '50', '0', '16', '0')
+2020-01-20 08:11:54,826 INFO select_all_rows(45) ('360', '135', '5', '#ffff00', '0', '47', 'fixedfps', 'auto', '0', '0', '50', '0', '20', '0')
+2020-01-20 08:11:54,826 INFO select_all_rows(45) ('362', '135', '6', '#000000', '25', '46', 'auto', 'auto', '0', '0', '50', '0', '20', '0')
+2020-01-20 08:11:54,826 INFO select_all_rows(45) ('364', '135', '7', '#ff0000', '0', '50', 'fireworks', 'auto', '0', '0', '50', '0', '17', '0')
+2020-01-20 08:11:54,827 INFO select_all_rows(45) ('366', '135', '8', '#ff0000', '0', '50', 'auto', 'auto', '0', '0', '50', '0', '20', '0')
+2020-01-20 08:11:54,827 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 08:11:54,827 INFO get_data_from_www(71) Getting data from WWW for led_groups for user_id 2
+2020-01-20 08:11:55,751 INFO get_data_from_www(75) Done!
+2020-01-20 08:11:55,751 INFO download(137) Data length is - 4
+2020-01-20 08:11:56,200 INFO select_all_rows(45) ('46', 'James 3 led group', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0')
+2020-01-20 08:11:56,201 INFO select_all_rows(45) ('47', 'Peter 1 led group', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0')
+2020-01-20 08:11:56,201 INFO select_all_rows(45) ('49', 'new', '0', '1', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0')
+2020-01-20 08:11:56,201 INFO select_all_rows(45) ('50', 'Polarized', '1', '1', '0', '0', '1', '0', '0', '1', '0', '0', '1', '0', '0')
+2020-01-20 13:27:47,091 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 13:27:47,103 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 13:27:47,104 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 13:27:47,104 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 13:39:30,173 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 13:39:30,173 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 13:39:30,173 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 13:39:30,173 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 13:52:28,911 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 13:52:28,911 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 13:52:28,911 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 13:52:28,911 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 13:52:59,892 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 13:52:59,893 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 13:52:59,893 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 13:52:59,893 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 13:57:18,655 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 13:57:18,655 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 13:57:18,655 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 13:57:18,655 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 13:58:09,299 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 13:58:09,300 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 13:58:09,300 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 13:58:09,300 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 13:59:27,147 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 13:59:27,147 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 13:59:27,147 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 13:59:27,147 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 14:01:37,717 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 14:01:37,718 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 14:01:37,718 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:01:37,718 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 14:01:37,718 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:02:42,857 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 14:02:42,858 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 14:02:42,858 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:02:42,858 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 14:02:42,858 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:04:23,497 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 14:04:23,498 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 14:04:23,498 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:04:23,498 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 14:04:23,498 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:19:57,039 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 14:19:57,040 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 14:19:57,040 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:19:57,040 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 14:19:57,040 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:23:03,720 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 14:23:03,720 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 14:23:03,720 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 14:23:03,721 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 14:23:03,721 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:39:51,834 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 15:39:51,835 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 15:39:51,835 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:39:51,835 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 15:39:51,835 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:45:21,204 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 15:45:21,204 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 15:45:21,205 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:45:21,205 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 15:45:21,205 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:48:05,289 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 15:48:05,290 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 15:48:05,290 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:48:05,290 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 15:48:05,290 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:48:37,675 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 15:48:37,675 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 15:48:37,675 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 15:48:37,675 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 15:48:37,675 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:35:03,889 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:35:03,889 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:35:03,889 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:35:03,889 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:35:03,889 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:37:20,659 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:37:20,659 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:37:20,659 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:37:20,659 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:37:20,659 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:39:01,112 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:39:01,112 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:39:01,112 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:39:01,112 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:39:01,112 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:40:19,857 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:40:19,857 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:40:19,857 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:40:19,857 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:40:19,858 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:40:41,103 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:40:41,104 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:40:41,104 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:40:41,104 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:40:41,104 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:41:02,319 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:41:02,320 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:41:02,320 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:41:02,321 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:41:02,321 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:41:21,475 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:41:21,475 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:41:21,476 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:41:21,476 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:41:21,476 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:41:52,667 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:41:52,667 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:41:52,668 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:41:52,668 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:41:52,668 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:43:35,634 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:43:35,634 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:43:35,634 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:43:35,634 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:43:35,634 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:45:48,105 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 16:45:48,106 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 16:45:48,106 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 16:45:48,106 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 16:45:48,106 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 17:21:58,085 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 17:21:58,086 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 17:21:58,086 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 17:21:58,086 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 17:21:58,086 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 17:22:33,045 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 17:22:33,045 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 17:22:33,045 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 17:22:33,045 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 17:22:33,046 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 17:23:38,020 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 17:23:38,020 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 17:23:38,020 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 17:23:38,020 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 17:23:38,020 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:02:40,082 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:02:40,082 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:02:40,083 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:02:40,083 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:02:40,083 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:20:56,328 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:20:56,328 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:20:56,328 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:20:56,328 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:20:56,328 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:31:24,473 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:31:24,473 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:31:24,473 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:31:24,473 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:31:24,474 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:31:29,821 INFO get_data_from_www(71) Getting data from WWW for settings for user_id 2
+2020-01-20 18:31:31,069 INFO get_data_from_www(75) Done!
+2020-01-20 18:31:31,070 INFO download(100) Data length is - 34
+2020-01-20 18:31:33,829 INFO select_all_rows(45) ('54', 'buzzer_gpio', '25')
+2020-01-20 18:31:33,829 INFO select_all_rows(45) ('41', 'color_effects', '0')
+2020-01-20 18:31:33,829 INFO select_all_rows(45) ('42', 'color_effects_u', '0')
+2020-01-20 18:31:33,829 INFO select_all_rows(45) ('43', 'color_effects_v', '0')
+2020-01-20 18:31:33,830 INFO select_all_rows(45) ('37', 'drc_strength', 'off')
+2020-01-20 18:31:33,830 INFO select_all_rows(45) ('56', 'dropbox_access_token', 'sYKfco6L-BAAAAAAAAAADlqvfdzd8CbUOMBxt6hdwbHPpFcRhIU-5b_gw8SW4yMq')
+2020-01-20 18:31:33,830 INFO select_all_rows(45) ('57', 'dropbox_destination_folder', '/SensioPhotos')
+2020-01-20 18:31:33,830 INFO select_all_rows(45) ('58', 'dropbox_link', 'https://www.dropbox.com/home/Apps/Lights%20and%20Camera')
+2020-01-20 18:31:33,830 INFO select_all_rows(45) ('38', 'exposure_compensation', '5')
+2020-01-20 18:31:33,830 INFO select_all_rows(45) ('51', 'image_copyright', 'Copyright james333')
+2020-01-20 18:31:33,831 INFO select_all_rows(45) ('39', 'image_denoise', '0')
+2020-01-20 18:31:33,831 INFO select_all_rows(45) ('44', 'image_effect', 'none')
+2020-01-20 18:31:33,831 INFO select_all_rows(45) ('45', 'image_effects_param_1', '9')
+2020-01-20 18:31:33,831 INFO select_all_rows(45) ('46', 'image_effects_param_2', '8')
+2020-01-20 18:31:33,831 INFO select_all_rows(45) ('47', 'image_effects_param_3', '7')
+2020-01-20 18:31:33,831 INFO select_all_rows(45) ('48', 'image_effects_param_4', '6')
+2020-01-20 18:31:33,832 INFO select_all_rows(45) ('49', 'image_effects_param_5', '4')
+2020-01-20 18:31:33,832 INFO select_all_rows(45) ('59', 'image_effects_param_6', '3')
+2020-01-20 18:31:33,832 INFO select_all_rows(45) ('50', 'image_name', 'my_image')
+2020-01-20 18:31:33,832 INFO select_all_rows(45) ('40', 'meter_mode', 'average')
+2020-01-20 18:31:33,832 INFO select_all_rows(45) ('55', 'neopixel_gpio', 'GPIO18')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('52', 'neopixel_order', 'grbw')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('62', 'number_of_neopixels', '12')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('31', 'resolution_x', '1280')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('32', 'resolution_y', '720')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('66', 'shutdown_gpio', '5')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('60', 'status_light_brightness', '60')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('68', 'status_light_index', '2')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('70', 'steps_per_page', '2')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('53', 'switch_gpio', '24')
+2020-01-20 18:31:33,833 INFO select_all_rows(45) ('36', 'zoom_h', '1')
+2020-01-20 18:31:33,834 INFO select_all_rows(45) ('35', 'zoom_w', '1')
+2020-01-20 18:31:33,834 INFO select_all_rows(45) ('33', 'zoom_x', '0')
+2020-01-20 18:31:33,834 INFO select_all_rows(45) ('34', 'zoom_y', '0')
+2020-01-20 18:31:33,834 INFO get_data_from_www(71) Getting data from WWW for sequences for user_id 2
+2020-01-20 18:31:34,652 INFO get_data_from_www(75) Done!
+2020-01-20 18:31:34,652 INFO download(181) Data length is - 1
+2020-01-20 18:31:34,816 INFO select_all_rows(45) ('135', 'bloop', None)
+2020-01-20 18:31:34,816 INFO get_data_from_www(71) Getting data from WWW for sequence_steps for user_id 2
+2020-01-20 18:31:36,397 INFO get_data_from_www(75) Done!
+2020-01-20 18:31:36,397 INFO download(246) Data length is - 8
+2020-01-20 18:31:37,124 INFO select_all_rows(45) ('356', '135', '1', '#ff0000', '0', '46', 'auto', 'auto', '0', '0', '50', '0', '40', '0')
+2020-01-20 18:31:37,124 INFO select_all_rows(45) ('357', '135', '2', '#0000ff', '0', '47', 'backlight', 'auto', '0', '0', '50', '0', '8', '0')
+2020-01-20 18:31:37,124 INFO select_all_rows(45) ('358', '135', '3', '#ff0000', '20', '50', 'auto', 'shade', '0', '0', '50', '0', '20', '0')
+2020-01-20 18:31:37,124 INFO select_all_rows(45) ('359', '135', '4', '#00ff40', '25', '46', 'auto', 'cloudy', '0', '0', '50', '0', '16', '0')
+2020-01-20 18:31:37,124 INFO select_all_rows(45) ('360', '135', '5', '#ffff00', '0', '47', 'fixedfps', 'auto', '0', '0', '50', '0', '20', '0')
+2020-01-20 18:31:37,124 INFO select_all_rows(45) ('362', '135', '6', '#000000', '25', '46', 'auto', 'auto', '0', '0', '50', '0', '20', '0')
+2020-01-20 18:31:37,125 INFO select_all_rows(45) ('364', '135', '7', '#ff0000', '0', '50', 'fireworks', 'auto', '0', '0', '50', '0', '17', '0')
+2020-01-20 18:31:37,125 INFO select_all_rows(45) ('366', '135', '8', '#ff0000', '0', '50', 'auto', 'auto', '0', '0', '50', '0', '20', '0')
+2020-01-20 18:31:37,125 INFO get_data_from_www(71) Getting data from WWW for led_groups for user_id 2
+2020-01-20 18:31:38,237 INFO get_data_from_www(75) Done!
+2020-01-20 18:31:38,237 INFO download(137) Data length is - 4
+2020-01-20 18:31:38,632 INFO select_all_rows(45) ('46', 'James 3 led group', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0')
+2020-01-20 18:31:38,633 INFO select_all_rows(45) ('47', 'Peter 1 led group', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0')
+2020-01-20 18:31:38,633 INFO select_all_rows(45) ('49', 'new', '0', '1', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0')
+2020-01-20 18:31:38,633 INFO select_all_rows(45) ('50', 'Polarized', '1', '1', '0', '0', '1', '0', '0', '1', '0', '0', '1', '0', '0')
+2020-01-20 18:32:17,744 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:32:17,745 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:32:17,745 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:32:17,745 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:32:17,745 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:35:47,303 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:35:47,304 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:35:47,304 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:35:47,304 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:35:47,304 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:37:27,250 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:37:27,251 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:37:27,251 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:37:27,251 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:37:27,251 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:39:16,010 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:39:16,010 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:39:16,010 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:39:16,010 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:39:16,010 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:39:43,284 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:39:43,284 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:39:43,284 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:39:43,284 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:39:43,284 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:40:47,128 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:40:47,128 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:40:47,128 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:40:47,128 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:40:47,128 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:45:35,485 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 18:45:35,485 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 18:45:35,485 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 18:45:35,485 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 18:45:35,485 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:26:18,967 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:26:19,217 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:26:19,217 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:26:19,218 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:26:19,218 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:28:05,714 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:28:05,715 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:28:05,715 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:28:05,715 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:28:05,715 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:29:30,573 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:29:30,573 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:29:30,573 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:29:30,573 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:29:30,574 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:30:33,635 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:30:33,635 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:30:33,635 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:30:33,635 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:30:33,636 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:32:20,363 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:32:20,363 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:32:20,363 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:32:20,363 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:32:20,363 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:35:46,311 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:35:46,311 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:35:46,312 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:35:46,312 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:35:46,312 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:36:17,332 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:36:17,332 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:36:17,332 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:36:17,332 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:36:17,332 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:36:47,234 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:36:47,235 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:36:47,235 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:36:47,235 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:36:47,235 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:38:13,803 INFO __init__(15) Initialising PTC database - settings
+2020-01-20 20:38:13,803 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-20 20:38:13,803 INFO __init__(15) Initialising PTC database - sequences
+2020-01-20 20:38:13,803 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-20 20:38:13,804 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:54:56,016 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 12:54:56,016 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 12:54:56,017 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:54:56,017 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 12:54:56,017 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:56:20,633 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 12:56:20,634 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 12:56:20,634 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:56:20,634 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 12:56:20,634 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:57:16,243 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 12:57:16,243 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 12:57:16,243 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:57:16,243 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 12:57:16,243 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:58:37,388 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 12:58:37,388 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 12:58:37,388 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 12:58:37,389 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 12:58:37,389 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 13:01:28,167 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 13:01:28,167 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 13:01:28,167 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 13:01:28,167 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 13:01:28,167 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:07:27,070 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 14:07:27,071 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 14:07:27,071 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:07:27,071 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 14:07:27,071 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:09:14,394 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 14:09:14,394 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 14:09:14,394 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:09:14,394 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 14:09:14,395 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:11:57,167 ERROR __init__(57) Exception: name 'ptc_database' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 32, in __init__
+    self.settings_database = ptc_database.SettingsDatabase(self.app_log)
+NameError: name 'ptc_database' is not defined
+2020-01-21 14:40:49,146 ERROR __init__(57) Exception: name 'ptc_database' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 32, in __init__
+    self.settings_database = ptc_database.SettingsDatabase(self.app_log)
+NameError: name 'ptc_database' is not defined
+2020-01-21 14:41:06,218 ERROR __init__(57) Exception: name 'ptc_database' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 32, in __init__
+    self.settings_database = ptc_database.SettingsDatabase(self.app_log)
+NameError: name 'ptc_database' is not defined
+2020-01-21 14:41:15,190 ERROR __init__(57) Exception: name 'ptc_database' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 32, in __init__
+    self.settings_database = ptc_database.SettingsDatabase(self.app_log)
+NameError: name 'ptc_database' is not defined
+2020-01-21 14:41:15,191 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 14:41:15,191 INFO __init__(15) Initialising PTC database - settings
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:41:15,192 INFO __init__(15) Initialising PTC database - sequences
+2020-01-21 14:41:20,277 INFO process_step(113) Checking processing status
+2020-01-21 14:41:20,277 INFO process_step(113) Checking processing status
+2020-01-21 14:41:20,278 INFO process_step(117) Not already processing, proceeding...
+2020-01-21 14:41:20,278 INFO process_step(117) Not already processing, proceeding...
+2020-01-21 14:41:20,278 ERROR process_step(132) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 119, in process_step
+    self.short_beep()
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 180, in short_beep
+    GPIO.output(self.buzzer, 1)             # set BUZZER to 1/GPIO.HIGH/True
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:20,278 ERROR process_step(132) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 119, in process_step
+    self.short_beep()
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 180, in short_beep
+    GPIO.output(self.buzzer, 1)             # set BUZZER to 1/GPIO.HIGH/True
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:22,716 INFO process_step(113) Checking processing status
+2020-01-21 14:41:22,716 INFO process_step(113) Checking processing status
+2020-01-21 14:41:22,716 INFO process_step(117) Not already processing, proceeding...
+2020-01-21 14:41:22,716 INFO process_step(117) Not already processing, proceeding...
+2020-01-21 14:41:22,717 ERROR process_step(132) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 119, in process_step
+    self.short_beep()
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 180, in short_beep
+    GPIO.output(self.buzzer, 1)             # set BUZZER to 1/GPIO.HIGH/True
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:22,717 ERROR process_step(132) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 119, in process_step
+    self.short_beep()
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 180, in short_beep
+    GPIO.output(self.buzzer, 1)             # set BUZZER to 1/GPIO.HIGH/True
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:25,043 ERROR process_loop(173) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 144, in process_loop
+    if GPIO.input(self.switch) == GPIO.LOW:
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:25,043 ERROR process_loop(173) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 144, in process_loop
+    if GPIO.input(self.switch) == GPIO.LOW:
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:27,427 ERROR process_loop(173) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 144, in process_loop
+    if GPIO.input(self.switch) == GPIO.LOW:
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:27,427 ERROR process_loop(173) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 144, in process_loop
+    if GPIO.input(self.switch) == GPIO.LOW:
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:31,651 INFO process_step(113) Checking processing status
+2020-01-21 14:41:31,651 INFO process_step(113) Checking processing status
+2020-01-21 14:41:31,651 INFO process_step(117) Not already processing, proceeding...
+2020-01-21 14:41:31,651 INFO process_step(117) Not already processing, proceeding...
+2020-01-21 14:41:31,652 ERROR process_step(132) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 119, in process_step
+    self.short_beep()
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 180, in short_beep
+    GPIO.output(self.buzzer, 1)             # set BUZZER to 1/GPIO.HIGH/True
+NameError: name 'GPIO' is not defined
+2020-01-21 14:41:31,652 ERROR process_step(132) Exception: name 'GPIO' is not defined
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 119, in process_step
+    self.short_beep()
+  File "/home/unnikrishnan/Projects/NewProject_TouchDisplay/code_1/photo_to_cloud.py", line 180, in short_beep
+    GPIO.output(self.buzzer, 1)             # set BUZZER to 1/GPIO.HIGH/True
+NameError: name 'GPIO' is not defined
+2020-01-22 06:30:22,593 INFO __init__(15) Initialising PTC database - settings
+2020-01-22 06:30:22,593 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 06:30:22,593 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 06:30:22,594 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-22 06:30:22,594 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:11:25,514 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:11:25,515 ERROR get_all_sequences(230) Exception: tuple index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 226, in get_all_sequences
+    sequences.append({'id':row[0], 'name': row[1]})
+IndexError: tuple index out of range
+2020-01-22 20:11:48,582 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:11:48,583 ERROR get_all_sequences(231) Exception: tuple index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 227, in get_all_sequences
+    sequences.append({'id':row[0], 'name': row[1]})
+IndexError: tuple index out of range
+2020-01-22 20:12:07,434 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:12:07,435 ERROR get_all_sequences(231) Exception: tuple index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 227, in get_all_sequences
+    sequences.append({'id':row[0], 'name': row[1]})
+IndexError: tuple index out of range
+2020-01-22 20:12:52,284 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:12:52,285 ERROR get_all_sequences(231) Exception: tuple index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 227, in get_all_sequences
+    sequences.append({'id':row[0], 'name': row[1]})
+IndexError: tuple index out of range
+2020-01-22 20:13:29,880 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:13:42,070 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:14:03,275 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:14:26,856 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 20:14:26,857 ERROR get_all_sequences(232) Exception: tuple index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 227, in get_all_sequences
+    sequences.append({'id':row[0], 'name': row[1]})
+IndexError: tuple index out of range
+2020-01-22 20:14:49,197 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:27:32,762 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:27:32,798 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:29:52,802 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:29:52,802 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:29:52,802 ERROR get_sequence_step_lighting_seq(384) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id = " + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:30:01,423 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:30:01,423 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:30:01,423 ERROR get_sequence_step_lighting_seq(384) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id = " + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:31:13,376 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:31:13,376 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:31:13,376 ERROR get_sequence_step_lighting_seq(385) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id = " + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:31:36,015 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:31:36,016 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:31:36,016 ERROR get_sequence_step_lighting_seq(385) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id = " + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:31:49,409 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:31:49,410 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:31:49,410 ERROR get_sequence_step_lighting_seq(385) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id = " + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:32:16,826 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:32:16,826 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:32:16,827 ERROR get_sequence_step_lighting_seq(386) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id = " + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:33:30,682 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:33:30,682 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:33:30,682 ERROR get_sequence_step_lighting_seq(386) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id = '" + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:33:50,124 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:33:50,124 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:33:50,124 ERROR get_sequence_step_lighting_seq(387) Exception: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 349, in get_sequence_step_lighting_seq
+    sql = "SELECT * FROM " + self.table_name + " where sequence_id =  " + sequence_id
+TypeError: Can't convert 'int' object to str implicitly
+2020-01-22 21:34:43,730 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:34:43,730 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:34:59,419 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:34:59,419 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:48:57,786 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:48:57,787 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:49:12,764 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:49:12,764 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:49:48,845 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:49:48,846 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:51:17,841 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:51:17,842 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 21:51:24,443 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 21:51:24,443 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 22:13:52,339 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 22:13:52,340 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 22:17:33,590 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 22:17:33,590 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 22:17:40,695 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 22:17:40,695 INFO __init__(15) Initialising PTC database - sequences
+2020-01-22 22:18:25,829 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-22 22:18:25,829 INFO __init__(15) Initialising PTC database - sequences
+2020-01-23 14:18:57,628 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-23 14:18:57,638 INFO __init__(15) Initialising PTC database - sequences
+2020-01-23 14:20:06,682 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-23 14:20:06,682 INFO __init__(15) Initialising PTC database - sequences
+2020-01-23 14:20:22,077 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-23 14:20:22,077 INFO __init__(15) Initialising PTC database - sequences
+2020-01-23 14:20:29,099 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-23 14:20:29,099 INFO __init__(15) Initialising PTC database - sequences
+2020-01-23 14:25:32,185 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-23 14:25:32,186 INFO __init__(15) Initialising PTC database - sequences
+2020-01-23 14:50:54,961 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-23 14:50:54,962 INFO __init__(15) Initialising PTC database - sequences
+2020-01-23 14:51:30,855 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-23 14:51:30,856 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 12:34:09,906 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 12:34:09,922 INFO get_data_from_www(72) Getting data from WWW for settings for user_id 1
+2020-01-25 12:34:09,951 INFO get_data_from_www(76) Done!
+2020-01-25 12:34:09,952 INFO download(101) Data length is - 21
+2020-01-25 12:34:11,620 INFO select_all_rows(46) ('200', 'image_name', '')
+2020-01-25 12:34:11,620 INFO select_all_rows(46) ('201', 'image_copyright', '')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('202', 'dropbox_access_token', 'sYKfco6L-BAAAAAAAAAADlqvfdzd8CbUOMBxt6hdwbHPpFcRhIU-5b_gw8SW4yMq')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('203', 'dropbox_destination_folder', '/SensioPhotos')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('204', 'dropbox_link', 'https://www.dropbox.com/home/Apps/Lights%20and%20Camera')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('205', 'neopixel_order', 'grbw')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('206', 'number_of_neopixels', '12')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('207', 'status_light_brightness', '60')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('208', 'status_light_index', '2')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('209', 'resolution_x', '1280')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('210', 'resolution_y', '720')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('211', 'zoom_x', '0')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('212', 'zoom_y', '0')
+2020-01-25 12:34:11,621 INFO select_all_rows(46) ('213', 'zoom_w', '1')
+2020-01-25 12:34:11,622 INFO select_all_rows(46) ('214', 'zoom_h', '1')
+2020-01-25 12:34:11,622 INFO select_all_rows(46) ('215', 'drc_strength', 'off')
+2020-01-25 12:34:11,622 INFO select_all_rows(46) ('216', 'image_denoise', '0')
+2020-01-25 12:34:11,622 INFO select_all_rows(46) ('217', 'meter_mode', 'average')
+2020-01-25 12:34:11,622 INFO select_all_rows(46) ('218', 'exposure_compensation', '5')
+2020-01-25 12:34:11,622 INFO select_all_rows(46) ('219', 'color_effects', '0')
+2020-01-25 12:34:11,622 INFO select_all_rows(46) ('220', 'image_effects', 'none')
+2020-01-25 12:34:11,622 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 12:34:11,622 INFO get_data_from_www(72) Getting data from WWW for sequences for user_id 1
+2020-01-25 12:34:11,634 INFO get_data_from_www(76) Done!
+2020-01-25 12:34:11,634 INFO download(185) Data length is - 1
+2020-01-25 12:34:11,787 INFO select_all_rows(46) ('3', 'test123', None)
+2020-01-25 12:34:11,787 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 12:34:11,788 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 12:34:11,788 INFO get_data_from_www(72) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 12:34:11,807 INFO get_data_from_www(76) Done!
+2020-01-25 12:34:11,807 INFO download(268) Data length is - 1
+2020-01-25 12:34:11,953 INFO select_all_rows(46) ('7', '3', '0', '#000AFF', '30', '1', 'night', 'auto', '0', '0', '50', '0', '0', '21')
+2020-01-25 12:34:11,953 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 12:34:11,954 INFO get_data_from_www(72) Getting data from WWW for led_groups for user_id 1
+2020-01-25 12:34:11,964 INFO get_data_from_www(76) Done!
+2020-01-25 12:34:11,964 INFO download(138) Data length is - 2
+2020-01-25 12:34:12,164 INFO select_all_rows(46) ('5', 'testLED', '0', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '0')
+2020-01-25 12:34:12,164 INFO select_all_rows(46) ('6', 'Group1', '1', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0')
+2020-01-25 13:36:13,897 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 13:36:26,194 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 13:40:00,205 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 13:40:25,099 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 13:48:09,544 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 13:49:11,783 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 14:42:29,685 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 14:42:29,685 INFO get_data_from_www(72) Getting data from WWW for settings for user_id 1
+2020-01-25 14:42:29,696 INFO get_data_from_www(76) Done!
+2020-01-25 14:42:29,696 INFO download(101) Data length is - 21
+2020-01-25 14:42:31,323 INFO select_all_rows(46) ('200', 'image_name', '')
+2020-01-25 14:42:31,323 INFO select_all_rows(46) ('201', 'image_copyright', '')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('202', 'dropbox_access_token', 'sYKfco6L-BAAAAAAAAAADlqvfdzd8CbUOMBxt6hdwbHPpFcRhIU-5b_gw8SW4yMq')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('203', 'dropbox_destination_folder', '/SensioPhotos')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('204', 'dropbox_link', 'https://www.dropbox.com/home/Apps/Lights%20and%20Camera')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('205', 'neopixel_order', 'grbw')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('206', 'number_of_neopixels', '12')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('207', 'status_light_brightness', '60')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('208', 'status_light_index', '2')
+2020-01-25 14:42:31,324 INFO select_all_rows(46) ('209', 'resolution_x', '1280')
+2020-01-25 14:42:31,325 INFO select_all_rows(46) ('210', 'resolution_y', '720')
+2020-01-25 14:42:31,325 INFO select_all_rows(46) ('211', 'zoom_x', '0')
+2020-01-25 14:42:31,325 INFO select_all_rows(46) ('212', 'zoom_y', '0')
+2020-01-25 14:42:31,325 INFO select_all_rows(46) ('213', 'zoom_w', '1')
+2020-01-25 14:42:31,325 INFO select_all_rows(46) ('214', 'zoom_h', '1')
+2020-01-25 14:42:31,325 INFO select_all_rows(46) ('215', 'drc_strength', 'off')
+2020-01-25 14:42:31,326 INFO select_all_rows(46) ('216', 'image_denoise', '0')
+2020-01-25 14:42:31,326 INFO select_all_rows(46) ('217', 'meter_mode', 'average')
+2020-01-25 14:42:31,326 INFO select_all_rows(46) ('218', 'exposure_compensation', '5')
+2020-01-25 14:42:31,326 INFO select_all_rows(46) ('219', 'color_effects', '0')
+2020-01-25 14:42:31,326 INFO select_all_rows(46) ('220', 'image_effects', 'none')
+2020-01-25 14:42:31,326 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:42:31,327 INFO get_data_from_www(72) Getting data from WWW for sequences for user_id 1
+2020-01-25 14:42:31,338 INFO get_data_from_www(76) Done!
+2020-01-25 14:42:31,338 INFO download(185) Data length is - 2
+2020-01-25 14:42:31,489 INFO select_all_rows(46) ('3', 'test123', None)
+2020-01-25 14:42:31,490 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 14:42:31,490 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:42:31,490 INFO get_data_from_www(72) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 14:42:31,520 INFO get_data_from_www(76) Done!
+2020-01-25 14:42:31,520 INFO download(268) Data length is - 5
+2020-01-25 14:42:31,933 INFO select_all_rows(46) ('7', '3', '0', '#000AFF', '30', '1', 'night', 'auto', '0', '0', '50', '0', '0', '21')
+2020-01-25 14:42:31,933 INFO select_all_rows(46) ('8', '3', '1', '#FF0000', '35', '1', 'auto', 'auto', '0', '0', '50', '0', '37', '0')
+2020-01-25 14:42:31,933 INFO select_all_rows(46) ('9', '6', '0', '#FF0000', '50', '6', 'auto', 'sunlight', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:42:31,934 INFO select_all_rows(46) ('10', '6', '1', '#FF872E', '5', '8', 'auto', 'auto', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:42:31,934 INFO select_all_rows(46) ('11', '6', '2', '#FFC836', '24', '7', 'auto', 'auto', '200', '500', '50', '0', '50', '0')
+2020-01-25 14:42:31,934 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 14:42:31,934 INFO get_data_from_www(72) Getting data from WWW for led_groups for user_id 1
+2020-01-25 14:42:31,942 INFO get_data_from_www(76) Done!
+2020-01-25 14:42:31,942 INFO download(138) Data length is - 4
+2020-01-25 14:42:32,332 INFO select_all_rows(46) ('5', 'testLED', '0', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '0')
+2020-01-25 14:42:32,333 INFO select_all_rows(46) ('6', 'LEDTest1', '1', '1', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0')
+2020-01-25 14:42:32,333 INFO select_all_rows(46) ('7', 'LEDTest', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0')
+2020-01-25 14:42:32,333 INFO select_all_rows(46) ('8', 'LEDTest2', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1')
+2020-01-25 14:46:42,588 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 14:46:42,589 INFO get_data_from_www(72) Getting data from WWW for settings for user_id 1
+2020-01-25 14:46:42,602 INFO get_data_from_www(76) Done!
+2020-01-25 14:46:42,602 INFO download(101) Data length is - 21
+2020-01-25 14:46:42,602 ERROR delete_all_rows(58) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 55, in delete_all_rows
+    cur.execute("DELETE from " + self.table_name)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,603 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,603 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,603 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,603 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,603 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,604 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,604 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,604 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,604 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,604 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,605 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,605 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,605 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,605 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,605 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,605 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,606 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,606 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,606 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,606 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,606 ERROR insert_row(67) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,606 ERROR select_all_rows(49) Exception: no such table: settings
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 41, in select_all_rows
+    cur.execute("SELECT * FROM " + self.table_name)
+sqlite3.OperationalError: no such table: settings
+2020-01-25 14:46:42,607 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:46:42,607 INFO get_data_from_www(72) Getting data from WWW for sequences for user_id 1
+2020-01-25 14:46:42,619 INFO get_data_from_www(76) Done!
+2020-01-25 14:46:42,619 INFO download(185) Data length is - 2
+2020-01-25 14:46:42,620 ERROR delete_all_rows(58) Exception: no such table: sequences
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 55, in delete_all_rows
+    cur.execute("DELETE from " + self.table_name)
+sqlite3.OperationalError: no such table: sequences
+2020-01-25 14:46:42,620 ERROR insert_row(67) Exception: no such table: sequences
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: sequences
+2020-01-25 14:46:42,620 ERROR select_all_rows(49) Exception: no such table: sequences
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 41, in select_all_rows
+    cur.execute("SELECT * FROM " + self.table_name)
+sqlite3.OperationalError: no such table: sequences
+2020-01-25 14:46:42,620 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 14:46:42,620 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:46:42,621 INFO get_data_from_www(72) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 14:46:42,649 INFO get_data_from_www(76) Done!
+2020-01-25 14:46:42,649 INFO download(268) Data length is - 5
+2020-01-25 14:46:42,650 ERROR delete_all_rows(58) Exception: no such table: sequence_steps
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 55, in delete_all_rows
+    cur.execute("DELETE from " + self.table_name)
+sqlite3.OperationalError: no such table: sequence_steps
+2020-01-25 14:46:42,650 ERROR insert_row(67) Exception: no such table: sequence_steps
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: sequence_steps
+2020-01-25 14:46:42,650 ERROR insert_row(67) Exception: no such table: sequence_steps
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: sequence_steps
+2020-01-25 14:46:42,650 ERROR insert_row(67) Exception: no such table: sequence_steps
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: sequence_steps
+2020-01-25 14:46:42,651 ERROR insert_row(67) Exception: no such table: sequence_steps
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: sequence_steps
+2020-01-25 14:46:42,651 ERROR insert_row(67) Exception: no such table: sequence_steps
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: sequence_steps
+2020-01-25 14:46:42,651 ERROR select_all_rows(49) Exception: no such table: sequence_steps
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 41, in select_all_rows
+    cur.execute("SELECT * FROM " + self.table_name)
+sqlite3.OperationalError: no such table: sequence_steps
+2020-01-25 14:46:42,651 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 14:46:42,651 INFO get_data_from_www(72) Getting data from WWW for led_groups for user_id 1
+2020-01-25 14:46:42,663 INFO get_data_from_www(76) Done!
+2020-01-25 14:46:42,663 INFO download(138) Data length is - 4
+2020-01-25 14:46:42,664 ERROR delete_all_rows(58) Exception: no such table: led_groups
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 55, in delete_all_rows
+    cur.execute("DELETE from " + self.table_name)
+sqlite3.OperationalError: no such table: led_groups
+2020-01-25 14:46:42,664 ERROR insert_row(67) Exception: no such table: led_groups
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: led_groups
+2020-01-25 14:46:42,664 ERROR insert_row(67) Exception: no such table: led_groups
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: led_groups
+2020-01-25 14:46:42,665 ERROR insert_row(67) Exception: no such table: led_groups
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: led_groups
+2020-01-25 14:46:42,665 ERROR insert_row(67) Exception: no such table: led_groups
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 64, in insert_row
+    cur.execute("INSERT INTO " + self.table_name  + " (" + self.field_list + ") VALUES (" + self.value_list + ")", new_row)
+sqlite3.OperationalError: no such table: led_groups
+2020-01-25 14:46:42,665 ERROR select_all_rows(49) Exception: no such table: led_groups
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 41, in select_all_rows
+    cur.execute("SELECT * FROM " + self.table_name)
+sqlite3.OperationalError: no such table: led_groups
+2020-01-25 14:48:52,051 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 14:48:52,051 INFO get_data_from_www(72) Getting data from WWW for settings for user_id 1
+2020-01-25 14:48:52,062 INFO get_data_from_www(76) Done!
+2020-01-25 14:48:52,063 INFO download(101) Data length is - 21
+2020-01-25 14:48:53,662 INFO select_all_rows(46) ('200', 'image_name', '')
+2020-01-25 14:48:53,662 INFO select_all_rows(46) ('201', 'image_copyright', '')
+2020-01-25 14:48:53,662 INFO select_all_rows(46) ('202', 'dropbox_access_token', 'sYKfco6L-BAAAAAAAAAADlqvfdzd8CbUOMBxt6hdwbHPpFcRhIU-5b_gw8SW4yMq')
+2020-01-25 14:48:53,663 INFO select_all_rows(46) ('203', 'dropbox_destination_folder', '/SensioPhotos')
+2020-01-25 14:48:53,663 INFO select_all_rows(46) ('204', 'dropbox_link', 'https://www.dropbox.com/home/Apps/Lights%20and%20Camera')
+2020-01-25 14:48:53,663 INFO select_all_rows(46) ('205', 'neopixel_order', 'grbw')
+2020-01-25 14:48:53,663 INFO select_all_rows(46) ('206', 'number_of_neopixels', '12')
+2020-01-25 14:48:53,664 INFO select_all_rows(46) ('207', 'status_light_brightness', '60')
+2020-01-25 14:48:53,664 INFO select_all_rows(46) ('208', 'status_light_index', '2')
+2020-01-25 14:48:53,664 INFO select_all_rows(46) ('209', 'resolution_x', '1280')
+2020-01-25 14:48:53,664 INFO select_all_rows(46) ('210', 'resolution_y', '720')
+2020-01-25 14:48:53,664 INFO select_all_rows(46) ('211', 'zoom_x', '0')
+2020-01-25 14:48:53,665 INFO select_all_rows(46) ('212', 'zoom_y', '0')
+2020-01-25 14:48:53,665 INFO select_all_rows(46) ('213', 'zoom_w', '1')
+2020-01-25 14:48:53,665 INFO select_all_rows(46) ('214', 'zoom_h', '1')
+2020-01-25 14:48:53,665 INFO select_all_rows(46) ('215', 'drc_strength', 'off')
+2020-01-25 14:48:53,665 INFO select_all_rows(46) ('216', 'image_denoise', '0')
+2020-01-25 14:48:53,665 INFO select_all_rows(46) ('217', 'meter_mode', 'average')
+2020-01-25 14:48:53,666 INFO select_all_rows(46) ('218', 'exposure_compensation', '5')
+2020-01-25 14:48:53,666 INFO select_all_rows(46) ('219', 'color_effects', '0')
+2020-01-25 14:48:53,666 INFO select_all_rows(46) ('220', 'image_effects', 'none')
+2020-01-25 14:48:53,666 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:48:53,667 INFO get_data_from_www(72) Getting data from WWW for sequences for user_id 1
+2020-01-25 14:48:53,681 INFO get_data_from_www(76) Done!
+2020-01-25 14:48:53,681 INFO download(185) Data length is - 2
+2020-01-25 14:48:53,818 INFO select_all_rows(46) ('3', 'test123', None)
+2020-01-25 14:48:53,819 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 14:48:53,820 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:48:53,820 INFO get_data_from_www(72) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 14:48:53,843 INFO get_data_from_www(76) Done!
+2020-01-25 14:48:53,843 INFO download(268) Data length is - 5
+2020-01-25 14:48:54,249 INFO select_all_rows(46) ('7', '3', '0', '#000AFF', '30', '1', 'night', 'auto', '0', '0', '50', '0', '0', '21')
+2020-01-25 14:48:54,250 INFO select_all_rows(46) ('8', '3', '1', '#FF0000', '35', '1', 'auto', 'auto', '0', '0', '50', '0', '37', '0')
+2020-01-25 14:48:54,250 INFO select_all_rows(46) ('9', '6', '0', '#FF0000', '50', '6', 'auto', 'sunlight', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:48:54,250 INFO select_all_rows(46) ('10', '6', '1', '#FF872E', '5', '8', 'auto', 'auto', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:48:54,250 INFO select_all_rows(46) ('11', '6', '2', '#FFC836', '24', '7', 'auto', 'auto', '200', '500', '50', '0', '50', '0')
+2020-01-25 14:48:54,250 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 14:48:54,250 INFO get_data_from_www(72) Getting data from WWW for led_groups for user_id 1
+2020-01-25 14:48:54,259 INFO get_data_from_www(76) Done!
+2020-01-25 14:48:54,260 INFO download(138) Data length is - 4
+2020-01-25 14:48:54,627 INFO select_all_rows(46) ('5', 'testLED', '0', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '0')
+2020-01-25 14:48:54,627 INFO select_all_rows(46) ('6', 'LEDTest1', '1', '1', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0')
+2020-01-25 14:48:54,627 INFO select_all_rows(46) ('7', 'LEDTest', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0')
+2020-01-25 14:48:54,627 INFO select_all_rows(46) ('8', 'LEDTest2', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1')
+2020-01-25 14:50:36,588 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 14:50:36,589 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:50:36,589 ERROR get_sequence_step_lighting_seq(411) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 380, in get_sequence_step_lighting_seq
+    led_group_id = rows[step][5]
+IndexError: list index out of range
+2020-01-25 14:50:36,590 ERROR get_sequence_step_data_seq(327) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 325, in get_sequence_step_data_seq
+    return rows[step]
+IndexError: list index out of range
+2020-01-25 14:50:36,591 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 14:50:36,591 INFO get_data_from_www(72) Getting data from WWW for settings for user_id 1
+2020-01-25 14:50:36,604 INFO get_data_from_www(76) Done!
+2020-01-25 14:50:36,604 INFO download(101) Data length is - 21
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('200', 'image_name', '')
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('201', 'image_copyright', '')
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('202', 'dropbox_access_token', 'sYKfco6L-BAAAAAAAAAADlqvfdzd8CbUOMBxt6hdwbHPpFcRhIU-5b_gw8SW4yMq')
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('203', 'dropbox_destination_folder', '/SensioPhotos')
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('204', 'dropbox_link', 'https://www.dropbox.com/home/Apps/Lights%20and%20Camera')
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('205', 'neopixel_order', 'grbw')
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('206', 'number_of_neopixels', '12')
+2020-01-25 14:50:38,267 INFO select_all_rows(46) ('207', 'status_light_brightness', '60')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('208', 'status_light_index', '2')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('209', 'resolution_x', '1280')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('210', 'resolution_y', '720')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('211', 'zoom_x', '0')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('212', 'zoom_y', '0')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('213', 'zoom_w', '1')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('214', 'zoom_h', '1')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('215', 'drc_strength', 'off')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('216', 'image_denoise', '0')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('217', 'meter_mode', 'average')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('218', 'exposure_compensation', '5')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('219', 'color_effects', '0')
+2020-01-25 14:50:38,268 INFO select_all_rows(46) ('220', 'image_effects', 'none')
+2020-01-25 14:50:38,268 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:50:38,269 INFO get_data_from_www(72) Getting data from WWW for sequences for user_id 1
+2020-01-25 14:50:38,277 INFO get_data_from_www(76) Done!
+2020-01-25 14:50:38,277 INFO download(185) Data length is - 2
+2020-01-25 14:50:38,422 INFO select_all_rows(46) ('3', 'test123', None)
+2020-01-25 14:50:38,422 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 14:50:38,423 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:50:38,423 INFO get_data_from_www(72) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 14:50:38,453 INFO get_data_from_www(76) Done!
+2020-01-25 14:50:38,454 INFO download(268) Data length is - 5
+2020-01-25 14:50:38,877 INFO select_all_rows(46) ('7', '3', '0', '#000AFF', '30', '1', 'night', 'auto', '0', '0', '50', '0', '0', '21')
+2020-01-25 14:50:38,878 INFO select_all_rows(46) ('8', '3', '1', '#FF0000', '35', '1', 'auto', 'auto', '0', '0', '50', '0', '37', '0')
+2020-01-25 14:50:38,878 INFO select_all_rows(46) ('9', '6', '0', '#FF0000', '50', '6', 'auto', 'sunlight', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:50:38,878 INFO select_all_rows(46) ('10', '6', '1', '#FF872E', '5', '8', 'auto', 'auto', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:50:38,878 INFO select_all_rows(46) ('11', '6', '2', '#FFC836', '24', '7', 'auto', 'auto', '200', '500', '50', '0', '50', '0')
+2020-01-25 14:50:38,878 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 14:50:38,879 INFO get_data_from_www(72) Getting data from WWW for led_groups for user_id 1
+2020-01-25 14:50:38,887 INFO get_data_from_www(76) Done!
+2020-01-25 14:50:38,887 INFO download(138) Data length is - 4
+2020-01-25 14:50:39,255 INFO select_all_rows(46) ('5', 'testLED', '0', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '0')
+2020-01-25 14:50:39,255 INFO select_all_rows(46) ('6', 'LEDTest1', '1', '1', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0')
+2020-01-25 14:50:39,256 INFO select_all_rows(46) ('7', 'LEDTest', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0')
+2020-01-25 14:50:39,256 INFO select_all_rows(46) ('8', 'LEDTest2', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1')
+2020-01-25 14:52:28,275 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 14:52:28,275 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:52:28,276 ERROR get_sequence_step_lighting_seq(412) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 381, in get_sequence_step_lighting_seq
+    led_group_id = rows[step][5]
+IndexError: list index out of range
+2020-01-25 14:52:28,277 ERROR get_sequence_step_data_seq(328) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 326, in get_sequence_step_data_seq
+    return rows[step]
+IndexError: list index out of range
+2020-01-25 14:52:28,277 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 14:52:28,277 INFO get_data_from_www(73) Getting data from WWW for settings for user_id 1
+2020-01-25 14:52:28,289 INFO get_data_from_www(77) Done!
+2020-01-25 14:52:28,289 INFO download(102) Data length is - 21
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('200', 'image_name', '')
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('201', 'image_copyright', '')
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('202', 'dropbox_access_token', 'sYKfco6L-BAAAAAAAAAADlqvfdzd8CbUOMBxt6hdwbHPpFcRhIU-5b_gw8SW4yMq')
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('203', 'dropbox_destination_folder', '/SensioPhotos')
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('204', 'dropbox_link', 'https://www.dropbox.com/home/Apps/Lights%20and%20Camera')
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('205', 'neopixel_order', 'grbw')
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('206', 'number_of_neopixels', '12')
+2020-01-25 14:52:29,873 INFO select_all_rows(46) ('207', 'status_light_brightness', '60')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('208', 'status_light_index', '2')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('209', 'resolution_x', '1280')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('210', 'resolution_y', '720')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('211', 'zoom_x', '0')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('212', 'zoom_y', '0')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('213', 'zoom_w', '1')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('214', 'zoom_h', '1')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('215', 'drc_strength', 'off')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('216', 'image_denoise', '0')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('217', 'meter_mode', 'average')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('218', 'exposure_compensation', '5')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('219', 'color_effects', '0')
+2020-01-25 14:52:29,874 INFO select_all_rows(46) ('220', 'image_effects', 'none')
+2020-01-25 14:52:29,874 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:52:29,875 INFO get_data_from_www(73) Getting data from WWW for sequences for user_id 1
+2020-01-25 14:52:29,885 INFO get_data_from_www(77) Done!
+2020-01-25 14:52:29,885 INFO download(186) Data length is - 2
+2020-01-25 14:52:30,117 INFO select_all_rows(46) ('3', 'test123', None)
+2020-01-25 14:52:30,119 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 14:52:30,121 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 14:52:30,122 INFO get_data_from_www(73) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 14:52:30,146 INFO get_data_from_www(77) Done!
+2020-01-25 14:52:30,146 INFO download(269) Data length is - 5
+2020-01-25 14:52:30,661 INFO select_all_rows(46) ('7', '3', '0', '#000AFF', '30', '1', 'night', 'auto', '0', '0', '50', '0', '0', '21')
+2020-01-25 14:52:30,661 INFO select_all_rows(46) ('8', '3', '1', '#FF0000', '35', '1', 'auto', 'auto', '0', '0', '50', '0', '37', '0')
+2020-01-25 14:52:30,662 INFO select_all_rows(46) ('9', '6', '0', '#FF0000', '50', '6', 'auto', 'sunlight', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:52:30,662 INFO select_all_rows(46) ('10', '6', '1', '#FF872E', '5', '8', 'auto', 'auto', '0', '0', '50', '0', '50', '0')
+2020-01-25 14:52:30,662 INFO select_all_rows(46) ('11', '6', '2', '#FFC836', '24', '7', 'auto', 'auto', '200', '500', '50', '0', '50', '0')
+2020-01-25 14:52:30,662 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 14:52:30,663 INFO get_data_from_www(73) Getting data from WWW for led_groups for user_id 1
+2020-01-25 14:52:30,677 INFO get_data_from_www(77) Done!
+2020-01-25 14:52:30,677 INFO download(139) Data length is - 4
+2020-01-25 14:52:31,115 INFO select_all_rows(46) ('5', 'testLED', '0', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '0')
+2020-01-25 14:52:31,115 INFO select_all_rows(46) ('6', 'LEDTest1', '1', '1', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0')
+2020-01-25 14:52:31,116 INFO select_all_rows(46) ('7', 'LEDTest', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0')
+2020-01-25 14:52:31,116 INFO select_all_rows(46) ('8', 'LEDTest2', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1')
+2020-01-25 15:01:00,564 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 15:01:00,565 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 15:01:00,565 ERROR get_sequence_step_lighting_seq(413) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 382, in get_sequence_step_lighting_seq
+    led_group_id = rows[step][5]
+IndexError: list index out of range
+2020-01-25 15:01:00,566 ERROR get_sequence_step_data_seq(329) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 327, in get_sequence_step_data_seq
+    return rows[step]
+IndexError: list index out of range
+2020-01-25 15:01:00,566 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 15:01:00,566 INFO get_data_from_www(74) Getting data from WWW for settings for user_id 1
+2020-01-25 15:01:00,623 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:01:00,644 ERROR download(114) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 102, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-25 15:01:00,645 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 15:01:00,645 INFO get_data_from_www(74) Getting data from WWW for sequences for user_id 1
+2020-01-25 15:01:00,690 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:01:00,691 ERROR download(197) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 186, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-25 15:01:00,691 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 15:01:00,691 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 15:01:00,691 INFO get_data_from_www(74) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 15:01:00,734 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:01:00,734 ERROR download(282) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 269, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-25 15:01:00,735 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 15:01:00,735 INFO get_data_from_www(74) Getting data from WWW for led_groups for user_id 1
+2020-01-25 15:01:00,774 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:01:00,774 ERROR download(153) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 139, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-25 15:02:59,016 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 15:02:59,016 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 15:02:59,017 ERROR get_sequence_step_lighting_seq(413) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 382, in get_sequence_step_lighting_seq
+    led_group_id = rows[step][5]
+IndexError: list index out of range
+2020-01-25 15:02:59,017 ERROR get_sequence_step_data_seq(329) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 327, in get_sequence_step_data_seq
+    return rows[step]
+IndexError: list index out of range
+2020-01-25 15:02:59,018 INFO __init__(15) Initialising PTC database - settings
+2020-01-25 15:02:59,018 INFO get_data_from_www(74) Getting data from WWW for settings for user_id 1
+2020-01-25 15:02:59,091 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:02:59,093 ERROR download(114) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 102, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-25 15:02:59,093 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 15:02:59,094 INFO get_data_from_www(74) Getting data from WWW for sequences for user_id 1
+2020-01-25 15:02:59,169 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:02:59,170 ERROR download(197) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 186, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-25 15:02:59,170 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-01-25 15:02:59,170 INFO __init__(15) Initialising PTC database - sequences
+2020-01-25 15:02:59,171 INFO get_data_from_www(74) Getting data from WWW for sequence_steps for user_id 1
+2020-01-25 15:02:59,235 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:02:59,238 ERROR download(282) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 269, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-01-25 15:02:59,238 INFO __init__(15) Initialising PTC database - led_groups
+2020-01-25 15:02:59,238 INFO get_data_from_www(74) Getting data from WWW for led_groups for user_id 1
+2020-01-25 15:02:59,287 ERROR get_data_from_www(81) Exception: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 75, in get_data_from_www
+    with urllib.request.urlopen(self.url) as response:
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 472, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.5/urllib/request.py", line 582, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.5/urllib/request.py", line 510, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 590, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2020-01-25 15:02:59,287 ERROR download(153) Exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 139, in download
+    data_len = len(self.data_dictionary[self.table_name])
+TypeError: 'NoneType' object is not subscriptable
+2020-02-20 14:43:19,567 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-02-20 14:43:19,586 INFO __init__(15) Initialising PTC database - sequences
+2020-02-20 14:43:36,090 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-02-20 14:43:36,091 INFO __init__(15) Initialising PTC database - sequences
+2020-02-20 14:44:40,134 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-02-20 14:44:40,134 INFO __init__(15) Initialising PTC database - sequences
+2020-02-20 14:44:40,135 INFO __init__(15) Initialising PTC database - led_groups
+2020-02-20 14:44:40,136 ERROR get_led_group_name(184) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 182, in get_led_group_name
+    return rows[1]
+IndexError: list index out of range
+2020-02-20 14:45:11,801 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-02-20 14:45:11,802 INFO __init__(15) Initialising PTC database - sequences
+2020-02-20 14:45:11,803 INFO __init__(15) Initialising PTC database - led_groups
+2020-02-20 14:45:11,804 ERROR get_led_group_name(185) Exception: list index out of range
+Traceback (most recent call last):
+  File "/home/unnikrishnan/Projects/Git_Repo/camera_Liveview/camera-liveview-project-rpi-zero/NewProject_TouchDisplay/code_1/ptc_database.py", line 182, in get_led_group_name
+    return rows[1]
+IndexError: list index out of range
+2020-02-20 14:46:30,568 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-02-20 14:46:30,569 INFO __init__(15) Initialising PTC database - sequences
+2020-02-20 14:46:30,569 INFO __init__(15) Initialising PTC database - led_groups
+2020-02-20 14:47:31,617 INFO __init__(15) Initialising PTC database - sequence_steps
+2020-02-20 14:47:31,618 INFO __init__(15) Initialising PTC database - sequences
+2020-02-20 14:47:31,618 INFO __init__(15) Initialising PTC database - led_groups
